@@ -20,7 +20,7 @@
     list-style: none;
     display: flex;
     width: 50%;
-    justify-content: left;
+    justify-content: right;
 }   
 .menu-design{
     margin-left: 15px;
@@ -81,7 +81,7 @@
     margin-top: 30px;
     padding: 20px;
 }
-/* Service SEction */
+/* Service Section */
 .serv-sec{
     margin-top:220px;
     background-color: #272424;
@@ -98,7 +98,7 @@
 }
 
 .cart p{
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 10px;
     margin-bottom: 10px;
     
@@ -127,8 +127,8 @@
 
 } */
 .cart{
-    width: 120px;
-    height: 180px;
+    width: 20%;
+    height: auto;
     box-shadow: 4px 4px 15px rgb(174, 169, 169);
     background-color: black;
     text-align: center;
@@ -142,6 +142,7 @@
 .full{
     background-color: black;
     color: white;
+    padding-top: 30px;
     padding-right:25px;
     padding-left: 25px;
 }
@@ -192,5 +193,6 @@
     font-size: 11px;
 
     border-top: .05em solid #fff;
-    padding-top:20px;
+    padding-top:50px;
+    padding-bottom: 2px;
 }
