@@ -49,7 +49,7 @@
     padding: 20px;
 }
 .content p{
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -60,7 +60,7 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 12px;
 }
 /* about us */
 .about{
@@ -135,4 +135,62 @@
     padding: 15px;
     color: white;
     border-radius: 10px;
+}
+
+
+/* Footer */
+.full{
+    background-color: black;
+    color: white;
+    padding-right:25px;
+    padding-left: 25px;
+}
+.full h4{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 20px;
+}
+
+.folio{
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+.support, .link ,.contact{
+    margin:10px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.support li{
+    margin-top:2px;
+    list-style: none;
+    font-size: 10px;
+    text-align: left;
+}
+.link li{
+    margin-top:2px;
+    list-style: none;
+    font-size: 10px;
+    text-align: left;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 10px;
+}
+.foot{
+    margin-bottom: 0px;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 11px;
+
+    border-top: .05em solid #fff;
+    padding-top:20px;
 }
