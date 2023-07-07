@@ -16,6 +16,7 @@
 }
 
 .menus{
+    font-size: 14px;
     list-style: none;
     display: flex;
     width: 50%;
@@ -38,8 +39,8 @@
     justify-content: space-around;
 }
 .content-img img{
-    height:250px;
-    width:230px;
+    height:200px;
+    width:200px;
     justify-content: center;
     align-items: center;
 }
@@ -59,14 +60,16 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    font-size: 10px;
 }
+/* about us */
 .about{
     /* height: 400px; */
     color:rgb(0, 0, 0);
     height: 150px;
 }
 .head{
-    margin-top: 20px;
+    padding: 15px;
     text-align: center;
     font-size: 30px;
 }
@@ -77,4 +80,59 @@
     flex-direction: row-reverse;
     margin-top: 30px;
     padding: 20px;
+}
+/* Service SEction */
+.serv-sec{
+    margin-top:220px;
+    background-color: #272424;
+    color: #fff;
+}
+.cart img{
+    height: 40px;
+    width: 40px;
+}
+.services{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+.cart p{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.serv-desc h4{
+    margin-top:5px;
+    text-align: center;
+}
+.serv-desc p{
+    text-align: center;
+}
+.btnlast{
+    background-color: rgb(198, 194, 194);
+    margin-top:10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.btnlast:hover{
+    background-color: #300f99;
+    color: #fff;
+    cursor: pointer;
+}
+/* .box-title{
+    padding: 10px;
+
+} */
+.cart{
+    width: 120px;
+    height: 180px;
+    box-shadow: 4px 4px 15px rgb(174, 169, 169);
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
 }
